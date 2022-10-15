@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    border: 0px;
+  
+  }
+  .container {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: auto;
+
+    
+    }
+    .text{
+  
+      margin: 90px 0px 0px 90px;
+    }
+   .red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: -108px 0px 0px 0px;
+    
+
+    transform: rotate(0deg);
+   }
+   @keyframes moveRed {
+    0%{
+         
+    }
+    100%{
+        
+            transform: rotate(90deg);
+            transform-origin: top left;
+        }
+    }
+   
+   .yellow{
+     height: 100px;
+    width: 100px;
+    background: Yellow;
+    
+  
+    transform: rotate(0deg);
+  }
+  @keyframes moveYel {
+    0%{
+      
+    }
+    100%{
+        transform: rotate(-90deg);
+        transform-origin: bottom left;
+    }
+    
+  }
+  
+  .blue
+  {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    margin: -200px 0px 0px 100px;
+  
+    transform: rotate(0deg);
+  }
+  @keyframes moveBlue {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+        transform-origin: top right;
+    }
+  }
+  
+  .green
+  {
+    height: 100px;
+    width: 100px;
+    background: green;
+    margin: 0px 0px 0px 100px;
+  
+    transform: rotate(0deg);
+  }
+  @keyframes movegreen {
+    0%{
+
+    }
+    100%{
+        transform: rotate(90deg);
+        transform-origin: bottom right;
+    }
+    
+  }
+  .container:hover .red{
+    animation: moveRed 2s;
+  }
+  .container:hover .yellow{
+    animation: moveYel 2s;
+  }
+  .container:hover .blue{
+    animation: moveBlue 2s;
+  }
+  .container:hover .green{
+    animation: movegreen 2s;
+  }

@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+html{
+    font-size: 10px;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    
+    background-color:rgb(31 129 201);
+    border: 0.1rem solid black;
+    
+}
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+.logo img{
+
+    width: 5rem;
+}
+.logo2 {
+    display: flex;
+    align-items: center;
+    
+}
+.logo2 img{
+    margin: -55.9rem;
+    width: 5rem;
+}
+nav{
+    display: flex;
+    height: 4.6rem;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 4.8rem;
+    align-items: center;
+    margin: 0rem 17.6rem;
+}
+nav ul li{
+    list-style: none;
+    padding: 1.5rem;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav ul li a:hover{
+    color: rgb(31, 28, 28);
+    font-style: bold;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 28.9rem;
+    height: 1.8rem;
+    border-radius: 0.4rem;
+    margin: 0 0 0 17.8rem;
+}
+.btn
+{
+    padding: 0.1rem 0.4rem;
+    color: white;
+    background-color: rgb(31 129 201);
+    border: 0.2rem solid white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+
+}
+.container
+{
+    min-height: calc(100vh - 5rem - 30vh);
+    background-color: white;
+
+}
+.slider
+{
+    width: 78vw;
+    margin: 0.1rem auto 1rem auto;
+}
+.slider img
+{
+    height: 20rem;
+    width: 100rem;
+    border-radius: 1rem;
+}
+div.movie1
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 20.4rem;
+    border: .4rem outset;
+}
+div.movie1 img
+{
+    width: auto;
+    height: 16.5rem;
+    margin: 1.5rem 1.2rem 0 .2rem;
+}
+div.movie1 article
+{
+    height: 2rem;
+    width: 22.1rem;
+    margin: .5rem 0;
+}
+div.movie2
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 20.4rem;
+    margin: -21.2rem 0 0 41.4rem;
+    border: .4rem outset;
+}
+div.movie2 img
+{
+    width: auto;
+    height: 16.5rem;
+    margin: 1.5rem 1.2rem 0 .2rem;
+}
+div.movie2 article
+{
+    height: 2rem;
+    width: 22.1rem;
+    margin: .5rem 0;
+}
+div.movie3
+{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    height: 20.4rem;
+    margin: -21.1rem 0 0 83.1rem;
+    border: .4rem outset;
+}
+
+div.movie3 img
+{
+    width: auto;
+    height: 16.5rem;
+    margin: 1.5rem 1.2rem 0 .2rem;
+}
+div.movie3 article
+{
+    height: 2rem;
+    width: 22.1rem;
+    margin: .5rem 0;
+}
+div.register
+{
+    display: flex;
+    justify-content: center;
+    border: .2rem groove black;
+    margin: 1.3rem 36.2rem 1.8rem 36.2rem;
+    background-color: beige;
+}
+.register h2
+{
+    display: flex;
+    justify-content: center;
+}
+
+div .first input
+{
+    margin: 0 0 0 .4rem;
+}
+div .last input
+{
+    margin: .2rem 0 .2rem .9rem;
+}
+div .email input
+{
+   margin:  .2rem 0 .2rem 3.7rem;
+}
+div .dob input
+{
+    margin: .2rem 0 .2rem 4.1rem;
+}
+div .gen input
+{
+    margin: .3rem 0 .2rem 0;
+}
+div .lang input
+{
+    margin: .3rem 0 .2rem 0;
+}
+div.about input
+{
+    margin: .2rem 0rem .2rem 0;
+}
+div.submit
+{
+    display: flex;
+    justify-content: center;
+    margin: .2rem .2rem .2rem .2rem;   
+}
+
+footer{
+    background-color: rgb(64, 153, 222);
+    border: .1rem solid black;
+    height: 16vh;
+    list-style: none;
+
+}
+div.contact
+{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: -7.2rem 44.6rem 0 0;
+}
+div.blog
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: .2rem .2rem 1.2rem 3.4rem;
+}
+.copyright
+{
+    display: flex;
+    justify-content: flex-end;
+    margin: -2.0rem 2.0rem 0 2rem;
+    color: white;
+}
+.contact ul{
+    list-style: none;
+    color: white;
+}
+.blog ul{
+    list-style: none;
+    color: white;
+}
+.blog ul li a{
+    color: white;
+    text-decoration: none;
+}
+.blog ul li a:hover{
+    color: rgb(31, 28, 28);
+    font-style: bold;
+    cursor: pointer;
+}
+@media (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 54%;
+    }
+}
+.movielist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movieblock {
+    width: 30%;
+}
